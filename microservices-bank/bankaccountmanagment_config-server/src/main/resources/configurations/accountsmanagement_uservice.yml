@@ -1,0 +1,11 @@
+server:
+    port: 9990
+    
+spring.jpa.properties.hibernate.temp.use_jdbc_metadata_defaults : false
+spring.datasource.driver-class-name: org.h2.Driver
+spring.jpa.hibernate.ddl-auto:  create
+spring.datasource.url:  jdbc:h2:mem:ah
+spring.datasource.username: sa
+spring.datasource.password:
+spring.h2.console.enabled:  true
+spring.h2.console.path: /h2-console

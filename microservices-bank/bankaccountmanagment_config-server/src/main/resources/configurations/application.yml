@@ -1,0 +1,30 @@
+eureka:
+  instance:
+    hostname: localhost
+    
+client:
+  registerWithEureka: false 
+  fetchRegistry: false
+  service-url:
+    defaultZone: http://localhost:8761/eureka/
+name:
+  value: nebrass
+
+spring:
+  sleuth:
+    sampler:
+      probability: 1
+  cloud:
+    config:
+      override-system-properties: false
+  h2:
+    console:
+      enabled: true
+
+logstash:
+  host: localhost
+  port: 5000
+  queue-size: 512
+
+server:
+  port: 8888

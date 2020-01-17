@@ -1,0 +1,9 @@
+
+server:
+    port: 9991
+    
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"

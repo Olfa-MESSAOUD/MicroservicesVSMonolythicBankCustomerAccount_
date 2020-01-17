@@ -1,0 +1,3 @@
+[submodule "monolythic-bank"]
+	path = monolythic-bank
+	url = https://github.com/Olfa-MESSAOUD/Monolythic-bank.git
